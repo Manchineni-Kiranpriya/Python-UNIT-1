@@ -1,1 +1,12 @@
+Enter item name: pen
+Enter item price: 100
+Enter quantity: 2
+Enter GST rate (%): 5
 
+----- BILL -----
+Item Name : pen
+Price     : 100.0
+Quantity  : 2
+Subtotal  : 200.0
+GST Amount: 10.0
+Final Bill: 210.0
