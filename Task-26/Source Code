@@ -1,1 +1,16 @@
+item_name = input("Enter item name: ")
+price = float(input("Enter item price: "))
+quantity = int(input("Enter quantity: "))
+gst_rate = float(input("Enter GST rate (%): "))
 
+subtotal = price * quantity
+gst_amount = subtotal * gst_rate / 100
+final_bill = subtotal + gst_amount
+
+print("\n----- BILL -----")
+print("Item Name :", item_name)
+print("Price     :", price)
+print("Quantity  :", quantity)
+print("Subtotal  :", subtotal)
+print("GST Amount:", gst_amount)
+print("Final Bill:", final_bill)
