@@ -1,1 +1,27 @@
+emp_name = input("Enter Employee Name: ")
+basic_salary = float(input("Enter Basic Salary: "))
+
+hra = basic_salary * 0.20      # 20% HRA
+da = basic_salary * 0.10       # 10% DA
+
+gross_salary = basic_salary + hra + da
+
+pf = basic_salary * 0.12       # 12% PF
+tax = basic_salary * 0.05      # 5% Tax
+
+deductions = pf + tax
+
+net_salary = gross_salary - deductions
+
+print("\n----- EMPLOYEE SALARY SLIP -----")
+print("Employee Name :", emp_name)
+print("Basic Salary  :", basic_salary)
+print("HRA           :", hra)
+print("DA            :", da)
+print("Gross Salary  :", gross_salary)
+print("PF Deduction  :", pf)
+print("Tax Deduction :", tax)
+print("Total Deductions :", deductions)
+print("Net Salary    :", net_salary)
+
 
