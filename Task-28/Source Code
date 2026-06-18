@@ -1,1 +1,16 @@
+student_name = input("Enter Student Name: ")
 
+tuition_fee = float(input("Enter Tuition Fee: "))
+exam_fee = float(input("Enter Examination Fee: "))
+library_fee = float(input("Enter Library Fee: "))
+lab_fee = float(input("Enter Laboratory Fee: "))
+
+total_fee = tuition_fee + exam_fee + library_fee + lab_fee
+
+print("\n----- FEE DETAILS -----")
+print("Student Name :", student_name)
+print("Tuition Fee  :", tuition_fee)
+print("Exam Fee     :", exam_fee)
+print("Library Fee  :", library_fee)
+print("Lab Fee      :", lab_fee)
+print("Total Fee    :", total_fee)
