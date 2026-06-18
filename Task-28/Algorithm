@@ -1,1 +1,10 @@
-
+Start
+Read the student name.
+Read the tuition fee.
+Read the examination fee.
+Read the library fee.
+Read the laboratory fee.
+Calculate the total fee:
+  Total Fee = Tuition Fee + Examination Fee + Library Fee + Laboratory Fee
+Display the student details and total fee payable.
+Stop
