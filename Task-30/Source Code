@@ -1,1 +1,10 @@
+income = float(input("Enter Monthly Income: "))
 
+expenses = float(input("Enter Monthly Expenditure: "))
+
+savings = income - expenses
+
+print("\n----- MONTHLY FINANCIAL REPORT -----")
+print("Monthly Income :", income)
+print("Expenditure    :", expenses)
+print("Savings        :", savings)
