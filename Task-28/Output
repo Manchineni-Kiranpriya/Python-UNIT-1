@@ -1,1 +1,13 @@
+Enter Student Name: Kiran
+Enter Tuition Fee: 30000
+Enter Examination Fee: 1500
+Enter Library Fee: 600
+Enter Laboratory Fee: 800
 
+----- FEE DETAILS -----
+Student Name : Kiran
+Tuition Fee  : 30000.0
+Exam Fee     : 1500.0
+Library Fee  : 600.0
+Lab Fee      : 800.0
+Total Fee    : 32900.0
