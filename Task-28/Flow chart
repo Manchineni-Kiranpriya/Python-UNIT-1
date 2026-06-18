@@ -1,1 +1,28 @@
-
+        ┌─────────┐
+        │ START   │
+        └────┬────┘
+             ▼
+      ╱─────────────────╲
+     ╱ Input Student    ╲
+     ╲ Name and Fees    ╱
+      ╲───────────────╱
+             │
+             ▼
+      ┌─────────────────┐
+      │ Calculate       │
+      │ Total Fee       │
+      │ = Tuition +     │
+      │ Exam + Library  │
+      │ + Lab Fee       │
+      └──────┬──────────┘
+             ▼
+      ╱─────────────────╲
+     ╱ Display Student  ╲
+     ╲ Details & Total  ╱
+      ╲ Fee Payable    ╱
+       ────────────────
+             │
+             ▼
+        ┌─────────┐
+        │  END    │
+        └─────────┘
