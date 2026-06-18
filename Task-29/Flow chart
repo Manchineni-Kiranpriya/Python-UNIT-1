@@ -1,1 +1,48 @@
-
+        ┌─────────┐
+        │ START   │
+        └────┬────┘
+             ▼
+      ╱─────────────────╲
+     ╱ Input Name and  ╲
+     ╲ Percentage      ╱
+      ╲───────────────╱
+             │
+             ▼
+      ┌─────────────────┐
+      │ Percentage >=90?│
+      └───┬─────────┬───┘
+         Yes        No
+          │          │
+          ▼          ▼
+     Grade=A+   Percentage>=80?
+              ┌──────┴──────┐
+             Yes           No
+              │             │
+              ▼             ▼
+          Grade=A     Percentage>=70?
+                      ┌──────┴──────┐
+                     Yes           No
+                      │             │
+                      ▼             ▼
+                  Grade=B    Percentage>=60?
+                              ┌──────┴──────┐
+                             Yes           No
+                              │             │
+                              ▼             ▼
+                          Grade=C    Percentage>=50?
+                                      ┌──────┴──────┐
+                                     Yes           No
+                                      │             │
+                                      ▼             ▼
+                                  Grade=D       Grade=F
+                                      │
+                                      ▼
+                           ╱─────────────────╲
+                          ╱ Display Result   ╲
+                          ╲ Grade Details    ╱
+                           ╲───────────────╱
+                                      │
+                                      ▼
+                                ┌─────────┐
+                                │  END    │
+                                └─────────┘
