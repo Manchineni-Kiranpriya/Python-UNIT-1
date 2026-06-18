@@ -1,1 +1,12 @@
-
+Start
+Read the student name.
+Read the percentage.
+Check the percentage:
+  If percentage ≥ 90, assign Grade A+.
+    Else if percentage ≥ 80, assign Grade A.
+    Else if percentage ≥ 70, assign Grade B.
+    Else if percentage ≥ 60, assign Grade C.
+    Else if percentage ≥ 50, assign Grade D.
+Otherwise, assign Grade F.
+Display the student name, percentage, and grade.
+Stop
