@@ -1,1 +1,13 @@
-
+Start
+Read the item name from the user.
+Read the item price from the user.
+Read the quantity of items from the user.
+Read the GST rate (%) from the user.
+Calculate the subtotal:
+  subtotal = price × quantity
+Calculate the GST amount:
+  gst_amount = (subtotal × gst_rate) / 100
+Calculate the final bill amount:
+  final_bill = subtotal + gst_amount
+Display the item name, price, quantity, subtotal, GST amount, and final bill amount.
+Stop
