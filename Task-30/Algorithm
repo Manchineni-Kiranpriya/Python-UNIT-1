@@ -1,1 +1,7 @@
-
+Start
+Read the monthly income.
+Read the monthly expenditure.
+Calculate savings:
+  Savings = Income - Expenditure
+Display income, expenditure, and savings.
+Stop
