@@ -1,1 +1,13 @@
+Enter Employee Name: Kiran
+Enter Basic Salary: 50000
 
+----- EMPLOYEE SALARY SLIP -----
+Employee Name : Kiran
+Basic Salary  : 50000.0
+HRA           : 10000.0
+DA            : 5000.0
+Gross Salary  : 65000.0
+PF Deduction  : 6000.0
+Tax Deduction : 2500.0
+Total Deductions : 8500.0
+Net Salary    : 56500.0
