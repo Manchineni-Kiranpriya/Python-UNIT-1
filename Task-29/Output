@@ -1,1 +1,17 @@
+Enter Student Name: Kiran
+Enter Percentage: 84
 
+----- RESULT -----
+Student Name : Kiran
+Percentage   : 84.0
+Grade        : A
+
+-------------------------------
+
+Enter Student Name: John
+Enter Percentage: 65
+
+----- RESULT -----
+Student Name : John
+Percentage   : 65.0
+Grade        : C
