@@ -1,1 +1,15 @@
-
+Start
+Read employee name.
+Read basic salary.
+Calculate HRA = 20% of basic salary.
+Calculate DA = 10% of basic salary.
+Calculate Gross Salary:
+  Gross Salary = Basic Salary + HRA + DA
+Calculate PF deduction = 12% of basic salary.
+Calculate Tax deduction = 5% of basic salary.
+Calculate Total Deductions:
+  Deductions = PF + Tax
+Calculate Net Salary:
+  Net Salary = Gross Salary - Deductions
+Display salary slip details.
+Stop
